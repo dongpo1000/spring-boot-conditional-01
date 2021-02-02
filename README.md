@@ -6,3 +6,6 @@
  
 ## 思路
 实现 Condition，使用 Conditional条件配置组件Bean
+
+## 附件
+测试自定义starter：spring-boot-mystarters-02

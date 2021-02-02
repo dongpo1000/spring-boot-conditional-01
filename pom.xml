@@ -35,6 +35,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
+        <!--引入自定义starter-->
+        <dependency>
+            <groupId>com.wdp.starter</groupId>
+            <artifactId>spring-boot-mystarters-02</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 

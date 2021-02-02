@@ -1,5 +1,6 @@
 import com.pywl.UserApplication;
 import com.pywl.service.MessagePrint;
+import com.wdp.starter.property.MyService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,9 +27,13 @@ public class UserApplicationTest {
 		System.out.println("message = " + message);
 	}
 
+	@Autowired
+	private MyService myService;
+
 	@Test
 	public void test2() throws Exception {
-
+		String msg = myService.sayMsg();
+		System.out.println("msg = " + msg);
 	}
 
 	@Test
